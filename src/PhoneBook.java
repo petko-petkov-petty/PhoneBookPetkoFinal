@@ -17,7 +17,7 @@ public class PhoneBook{
         entries = new HashMap<>();
         createPhoneBook(file, entries);
     }
-    
+
     public void createPhoneBook(File file, Map<Person, PhoneNumber> entries) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
         String line;
